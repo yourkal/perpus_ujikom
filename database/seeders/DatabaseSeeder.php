@@ -16,13 +16,6 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
 
-        DB::table('categories')->insert([
-            'name' => 'fiksi',
-        ]);
-        DB::table('categories')->insert([
-            'name' => 'non-fiksi',
-        ]);
-
         DB::table('books')->insert([
             'title' => 'Judul Buku Fiksi',
             'code' => 'AF123',

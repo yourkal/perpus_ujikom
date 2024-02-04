@@ -5,7 +5,7 @@
       <div class="sidebar-brand-icon rotate-n-15">
         <i class="bi bi-book-fill"></i>
       </div>
-      <div class="sidebar-brand-text mx-3">perpus40</div>
+      <div class="sidebar-brand-text mx-3">Hallo Admin</div>
   </a>
 
   <!-- Divider -->
@@ -34,7 +34,7 @@
 
   <!-- Nav Item - Tables -->
   <li class="nav-item {{ Request::is('admin/users') ? 'active' : '' }}">
-      <a class="nav-link" href="/admin">
+      <a class="nav-link" href="/admin/users">
         <i class="bi bi-people-fill"></i>
           <span>Users</span></a>
   </li>

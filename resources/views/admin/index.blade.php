@@ -86,7 +86,7 @@
                   <div class="row no-gutters align-items-center">
                       <div class="col mr-2">
                           <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                              Users (Member)</div>
+                              Users </div>
                           <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $countUsers }}</div>
                       </div>
                       <div class="col-auto">
@@ -105,14 +105,14 @@
       <!-- Area Chart -->
       <div class="col-xl-8 col-lg-7">
           {{-- ... --}}
-          <div class="card shadow mb-4">
+          {{-- <div class="card shadow mb-4">
               <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                   <h6 class="m-0 font-weight-bold text-primary">Transaction Graph</h6>
               </div>
               <div class="card-body">
                 .
               </div>
-          </div>
+          </div> --}}
 
           <!-- Today's Transaction (Booking) -->
           <div class="card shadow mb-4">

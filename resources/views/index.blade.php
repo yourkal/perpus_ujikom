@@ -236,14 +236,14 @@
 @section('main-content')
     <section class="cta-wrapper mx-3 mx-sm-4 mx-lg-5" data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="center-bottom">
       <div class="cta">
-        <h1>Jelajahi Dunia Ilmu di Perpus40!</h1>
+        <h1>Jelajahi Dunia Ilmu di Perpustakaan SMKN 1 Cisarua!</h1>
         <p>Temukan buku terkini untuk memperluas wawasan. Jelajahi topik favorit dan buka pintu menuju dunia pengetahuan yang lebih menarik!</p>
         <a href="/login">Start Explore!<i class="bi bi-arrow-right-square-fill fs-2"></i></a>
       </div>
 
-      <div class="table">
+      {{-- <div class="table">
         <img src="{{ asset('img/table.png') }}" alt="">
-      </div>
+      </div> --}}
     </section>
 
     <section class="categories mb-5">
@@ -329,7 +329,7 @@
                             <li>
                                 <p>Setelah menyetujui <span class="fw-semibold">Syarat dan Ketentuan</span>, anda akan mendapatkan kode peminjaman <span class="bg-dark text-white badge">XX-XXXXXX</span> berjumlah 8 digit</p>
                             </li>
-                            <li><p>Datang ke Perpustakaan SMKN 40 Jakarta lalu berikan kode peminjaman kepada pustakawan</p></li>
+                            <li><p>Datang ke Perpustakaan SMKN 1 CISARUA lalu berikan kode peminjaman kepada pustakawan</p></li>
                             <li><p>Lakukan kembalikan buku jika sudah selesai membaca <br><span class="text-danger">*</span>Note: Pengembalian yang lewat dari tenggat waktu yang ditentukan akan dikenakan denda</p></li>
                         </ol>
                     </div>

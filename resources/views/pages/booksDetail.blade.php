@@ -105,7 +105,7 @@
           </div>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kembali</button>
             {{-- <input type="text" name="user_id" value="{{ auth()->user->id }}" hidden> --}}
             <input type="text" name="book_id" value="{{ $book->id }}" hidden>
             <input type="text" name="user_id" value="{{ auth()->user()->id }}" hidden>
