@@ -19,11 +19,13 @@
   </li>
 
   <!-- Nav Item - Tables -->
+  @can('admin')
   <li class="nav-item {{ Request::is('admin/books*') ? 'active' : '' }}">
       <a class="nav-link" href="/admin/books">
         <i class="bi bi-book-half"></i>
           <span>Books</span></a>
   </li>
+  @endcan
   
   <!-- Nav Item - Tables -->
   <li class="nav-item {{ Request::is('admin/booking*') ? 'active' : '' }}">
@@ -33,6 +35,7 @@
   </li>
 
   <!-- Nav Item - Tables -->
+  @can('admin')    
   <li class="nav-item {{ Request::is('admin/users') ? 'active' : '' }}">
       <a class="nav-link" href="/admin/users">
         <i class="bi bi-people-fill"></i>
